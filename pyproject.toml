@@ -8,7 +8,8 @@ version = "0.1.0"
 description = "Curses-based terminal typing practice tool"
 readme = "README.md"
 requires-python = ">=3.8"
-authors = [{ name = "Your Name" }]
+authors = [{ name = "Amudan Thangavel", email = "amudanthangavel@gmail.com" }]
+license = { file = "LICENSE" }
 keywords = ["typing", "terminal", "curses", "practice", "WPM"]
 classifiers = [
   "Programming Language :: Python :: 3",
@@ -22,6 +23,7 @@ classifiers = [
   "Intended Audience :: End Users/Desktop",
   "Topic :: Games/Entertainment",
   "Topic :: Utilities",
+  "License :: OSI Approved :: MIT License",
 ]
 dependencies = [
   # On Windows, pull in curses support automatically
@@ -39,3 +41,8 @@ py-modules = ["cli_typer"]
 line-length = 100
 target-version = "py38"
 
+[project.urls]
+Homepage = "https://github.com/AmudanThangavel/cli-typer"
+Issues = "https://github.com/AmudanThangavel/cli-typer/issues"
+Source = "https://github.com/AmudanThangavel/cli-typer"
+Changelog = "https://github.com/AmudanThangavel/cli-typer/releases"

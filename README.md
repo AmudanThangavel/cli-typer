@@ -1,5 +1,9 @@
 CLI Typer
 
+[![CI](https://github.com/AmudanThangavel/cli-typer/actions/workflows/ci.yml/badge.svg)](https://github.com/AmudanThangavel/cli-typer/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/cli-typer.svg)](https://pypi.org/project/cli-typer/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A fast, curses-based typing practice tool for your terminal — no browser, no accounts. Inspired by monkeytype-style flows, it highlights correct/incorrect characters as you type and shows live WPM and accuracy. Includes an optional on‑screen keyboard overlay that lights up the last key pressed.
 
 Features
@@ -20,13 +24,23 @@ Requirements
 
 Install
 
-Option A — Clone and run
+Option A — pip/pipx (after PyPI release)
+
+- `pipx install cli-typer`
+- or `pip install -U cli-typer`
+
+Option B — Homebrew (tap)
+
+- `brew tap AmudanThangavel/tap`
+- `brew install cli-typer`
+
+Option C — Clone and run
 
 1) `git clone https://github.com/AmudanThangavel/cli-typer.git`
 2) `cd cli-typer`
 3) `python3 cli_typer.py`
 
-Option B — Run a quick sandbox check
+Quick sandbox check
 
 - `python3 cli_typer.py --check` — runs a small self‑test without curses/TTY
 
@@ -118,4 +132,4 @@ Roadmap
 
 License
 
-- Apache‑2.0
+- MIT — see [LICENSE](LICENSE)

@@ -1,1 +1,14 @@
-./github
+# Python
+__pycache__/
+*.py[cod]
+.Python
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
